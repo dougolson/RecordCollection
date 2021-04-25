@@ -1,0 +1,10 @@
+C:\Users\Elite22\source\repos\Database\Database\bin\Debug\Database.dacpac
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\Database.sqlprojAssemblyReference.cache
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\Model.xml
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\refactor.xml
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\postdeploy.sql
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\predeploy.sql
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\Database.dll
+C:\Users\Elite22\source\repos\Database\Database\obj\Debug\Database.pdb
+C:\Users\Elite22\source\repos\Database\Database\bin\Debug\Database.dll
+C:\Users\Elite22\source\repos\Database\Database\bin\Debug\Database.pdb

@@ -1,0 +1,21 @@
+﻿CREATE TABLE [dbo].[Album] (
+    [ID]     INT IDENTITY (1, 1) NOT NULL,
+    [Title]       NVARCHAR (50)  NULL,
+	[CatalogNum] NVARCHAR (25) NULL,
+	[AlbumType] NVARCHAR (50)  NULL,
+	[NumberOfRecords] INT NULL,
+	[RecordingDate] DATE NULL,
+	[ReleaseDate] DATE NULL,
+	[CopyNumber] INT NULL,
+	[CleanedDate] DATE NULL,
+	[Notes] NVARCHAR (500)  NULL,
+	[LabelID] INT NULL,
+	[GenreID] INT NULL,
+	[ConditionID] INT NULL,
+    [Description] NVARCHAR (MAX) NULL,
+    CONSTRAINT [PK_Album] PRIMARY KEY CLUSTERED ([ID] ASC), 
+    CONSTRAINT [FK_Album_ToLabel] FOREIGN KEY ([LabelID]) REFERENCES [Label]([ID]), 
+    CONSTRAINT [FK_Album_ToGenre] FOREIGN KEY ([GenreID]) REFERENCES [Genre]([ID]), 
+    CONSTRAINT [FK_Album_ToCondition] FOREIGN KEY ([ConditionID]) REFERENCES [Condition]([ID]),
+);
+
