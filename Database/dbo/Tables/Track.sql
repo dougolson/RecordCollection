@@ -7,6 +7,8 @@
     [CompositionID] INT NULL, 
     [GenreID] INT NULL, 
     [Notes]   NVARCHAR (MAX) NULL,
+    [CreateTimestamp] DATETIME NOT NULL DEFAULT(sysdatetime()),
+	[UpdateTimestamp] DATETIME NOT NULL DEFAULT(sysdatetime()),
     CONSTRAINT [PK_SongID] PRIMARY KEY CLUSTERED ([ID] ASC), 
     CONSTRAINT [FK_Track_ToComposition] FOREIGN KEY ([CompositionID]) REFERENCES [Composition]([ID]), 
     CONSTRAINT [FK_Track_ToGenre] FOREIGN KEY ([GenreID]) REFERENCES [Genre]([ID]),

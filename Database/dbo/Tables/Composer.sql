@@ -6,5 +6,7 @@
     [LastName] NVARCHAR(50) NULL, 
     [FullName] NVARCHAR(50) NULL, 
     [BirthYear] DATE NULL, 
-    [DeathYear] DATE NULL
+    [DeathYear] DATE NULL,
+    [CreateTimestamp] DATETIME NOT NULL DEFAULT(sysdatetime()),
+	[UpdateTimestamp] DATETIME NOT NULL DEFAULT(sysdatetime()),
 )
