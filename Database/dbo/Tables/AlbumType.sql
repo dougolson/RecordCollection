@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[AlbumType]
 (
-	[ID] INT NOT NULL PRIMARY KEY, 
+	[ID] INT IDENTITY(1,1)  NOT NULL PRIMARY KEY, 
     [AlbumType] NVARCHAR(50) NULL
 )

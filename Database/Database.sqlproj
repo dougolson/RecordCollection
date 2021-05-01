@@ -80,6 +80,9 @@
     <Build Include="dbo\Tables\Role.sql" />
     <Build Include="dbo\Tables\AlbumType.sql" />
     <Build Include="dbo\Stored Procedures\ISP_AddAlbum.sql" />
+    <Build Include="dbo\Tables\Artist.sql" />
+    <Build Include="dbo\Tables\AlbumArtist.sql" />
+    <Build Include="dbo\AlbumBasicDetails.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Database.refactorlog" />
